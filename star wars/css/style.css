@@ -1,0 +1,253 @@
+/* Styles, styles, styles! */
+
+.home-page-body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: black;
+    color: Black;
+}
+.films-page-body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: black;
+    color: Black;
+}
+
+.film-page-body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: Black;
+}
+
+.people-page-body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: Black;
+}
+.person-page-body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: Black;
+}
+
+.planets-page-body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: black !important;
+    color: Black;
+}
+
+.not-found-page-body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    flex: 5;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+}
+.navbar-brand img {
+    max-width: 70px !important;
+    height: auto !important;
+}
+
+.site-name-div{
+    padding-top: 15px;
+    flex: 2;
+}
+
+.navbarNav{
+    flex: 2;
+}
+
+.site-name{
+    font-family: 'Pixelify Sans', sans-serif ;
+    font-size: 35px;
+}
+
+ul .nav-item {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px; /* Adjust the values as needed */
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+
+.nav-item:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+p {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.description {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+
+
+
+* {box-sizing: border-box;}
+
+
+.mySlides {display: none;}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    padding-top: 50px;
+    margin: auto;
+}
+
+/* Caption text */
+.slide-text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 100px 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 3.6s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 200px) {
+    .text {font-size: 11px}
+}
+
+.form-control.search  {
+    width:100%;
+    font-size: 25px;
+    background-color: goldenrod;
+    color: black;
+    display: flex;
+    margin: auto;
+    border-width: 0;
+}
+
+.toggleButton {
+    display: block;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-top: 22px;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+.add_film.card{
+    border-width: 0;
+    background-color: #111111;
+    display: inline-block;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 4em;
+    overflow: hidden;
+}
+
+/*creating animation effect*/
+.add_film.card:hover {
+    color: #111;
+    background: #FFF01F;
+    box-shadow: 0 0 50px #FFF01F;
+}
+
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.character-checkbox {
+    display: none; /* Hide the checkboxes */
+}
+
+.character-label {
+    position: relative;
+    margin: 5px;
+}
+
+.character-image {
+    margin:20px;
+    max-width: 100px;
+    display: block;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.character-checkbox:checked + .character-label .character-image {
+    filter: brightness(1.5); /* Highlight when checkbox is checked */
+}
+
+.character-checkbox:checked + .character-label {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7), 0 0 20px rgba(0, 255, 0, 0.5);
+    border: 2px solid rgba(0, 255, 0, 0.7);
+}
+
+.character-name {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.character-label:hover .character-name {
+    display: block;
+}
+

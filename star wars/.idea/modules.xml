@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/StarWarHub.iml" filepath="$PROJECT_DIR$/.idea/StarWarHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Tutorial 4 Solutions-20231016/.idea/Tutorial 4 Solutions-20231016.iml" filepath="$PROJECT_DIR$/../Tutorial 4 Solutions-20231016/.idea/Tutorial 4 Solutions-20231016.iml" />
+    </modules>
+  </component>
+</project>
